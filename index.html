@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0d0d0d" />
+  <title>BENASAD — אימון ותזונה</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">B</span>
+      <div class="brand-text">
+        <h1>BENASAD</h1>
+        <p id="todayLabel"></p>
+      </div>
+    </div>
+    <div class="brand-stats">
+      <div><span id="hdrWeight">72</span> ק"ג</div>
+      <div><span id="hdrStreak">0</span> רצף</div>
+    </div>
+  </header>
+
+  <main id="view"></main>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="workout">
+      <span class="tab-icon">🏋️</span><span>אימון</span>
+    </button>
+    <button class="tab" data-tab="nutrition">
+      <span class="tab-icon">🥗</span><span>תזונה</span>
+    </button>
+    <button class="tab" data-tab="tracker">
+      <span class="tab-icon">📊</span><span>מעקב</span>
+    </button>
+    <button class="tab" data-tab="profile">
+      <span class="tab-icon">👤</span><span>פרופיל</span>
+    </button>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
